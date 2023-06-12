@@ -1,10 +1,14 @@
+import Header from '../components/Header';
+import Nav from '../components/Nav';
 import * as C from './styles';
 
 function App() {
 
 	return (
 		<C.App>   
-			<h1 >Hello World</h1>
+			<Header>
+				<Nav />
+			</Header>
 		</C.App>
 	);
 }

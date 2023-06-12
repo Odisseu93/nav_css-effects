@@ -10,12 +10,9 @@ type NavButtonProps = {
 const NavButton: React.FC<NavButtonProps> = ({
 	isOpened,
 	name,
-	onclick }) => {
-	return (
-		<C.NavButton isOpened={isOpened} onClick={onclick}>
-			{name}
-		</C.NavButton>
-	);
-};
+	onclick }) => (
+	<C.NavButton isOpened={isOpened} onClick={onclick}>
+		{name}
+	</C.NavButton>);
 
 export default NavButton;
