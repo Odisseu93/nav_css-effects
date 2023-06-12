@@ -6,10 +6,5 @@ export const App = styled.main`
   justify-content: center;
   align-items: center;
 
-  padding: 32px;
   width: 100%;
-  
-  h1 {
-    text-align: center;
-  }
 `;
